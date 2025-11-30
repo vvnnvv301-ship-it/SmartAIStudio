@@ -1,0 +1,50 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9333ea;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer camera lens ring -->
+  <circle cx="100" cy="100" r="85" stroke="url(#logoGradient)" stroke-width="6" fill="none" opacity="0.3"/>
+  
+  <!-- Main camera lens -->
+  <circle cx="100" cy="100" r="65" stroke="url(#logoGradient)" stroke-width="8" fill="none"/>
+  
+  <!-- Inner lens detail -->
+  <circle cx="100" cy="100" r="45" fill="url(#logoGradient)" opacity="0.2"/>
+  
+  <!-- Lens aperture blades (hexagon) -->
+  <path d="M 100 65 L 130 80 L 130 120 L 100 135 L 70 120 L 70 80 Z" 
+        stroke="url(#accentGradient)" 
+        stroke-width="3" 
+        fill="none" 
+        opacity="0.8"/>
+  
+  <!-- AI Circuit nodes -->
+  <circle cx="100" cy="100" r="8" fill="url(#logoGradient)"/>
+  <circle cx="75" cy="85" r="5" fill="#06b6d4" opacity="0.8"/>
+  <circle cx="125" cy="85" r="5" fill="#06b6d4" opacity="0.8"/>
+  <circle cx="75" cy="115" r="5" fill="#9333ea" opacity="0.8"/>
+  <circle cx="125" cy="115" r="5" fill="#9333ea" opacity="0.8"/>
+  
+  <!-- AI Circuit connections -->
+  <line x1="100" y1="100" x2="75" y2="85" stroke="url(#logoGradient)" stroke-width="2" opacity="0.5"/>
+  <line x1="100" y1="100" x2="125" y2="85" stroke="url(#logoGradient)" stroke-width="2" opacity="0.5"/>
+  <line x1="100" y1="100" x2="75" y2="115" stroke="url(#logoGradient)" stroke-width="2" opacity="0.5"/>
+  <line x1="100" y1="100" x2="125" y2="115" stroke="url(#logoGradient)" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Camera shutter button accent -->
+  <circle cx="145" cy="55" r="12" fill="url(#accentGradient)" opacity="0.9"/>
+  <circle cx="145" cy="55" r="6" fill="#ffffff" opacity="0.3"/>
+  
+  <!-- Sparkle effects for AI -->
+  <path d="M 160 100 L 162 100 M 161 99 L 161 101" stroke="#06b6d4" stroke-width="2" opacity="0.8"/>
+  <path d="M 40 100 L 42 100 M 41 99 L 41 101" stroke="#9333ea" stroke-width="2" opacity="0.8"/>
+  <path d="M 100 40 L 100 42 M 99 41 L 101 41" stroke="#a855f7" stroke-width="2" opacity="0.8"/>
+</svg>
