@@ -125,9 +125,12 @@ function TechStackAndAI() {
                     <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
                         {t('techstack.ctaSubtitle')}
                     </p>
-                    <button className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-lg font-semibold text-white shadow-lg shadow-cyan-500/50 hover:shadow-xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105">
+                    <a
+                        href="https://smart-ai-studio-platform.vercel.app/"
+                        className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-lg font-semibold text-white shadow-lg shadow-cyan-500/50 hover:shadow-xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105"
+                    >
                         {t('techstack.ctaButton')}
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>
